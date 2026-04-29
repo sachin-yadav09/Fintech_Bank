@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    /* FIX: Changed from "react" to "react-jsx" to match tsconfig.app.json.
+       "react" requires an explicit React import in every file — "react-jsx"
+       uses the modern JSX transform and is consistent with the app config. */
+    "jsx": "react-jsx",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    /* FIX: Aligned to true so root config doesn't silently relax strictness
+       for tooling that reads tsconfig.json instead of tsconfig.app.json. */
+    "strict": true,
+    "noImplicitAny": false,
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "files": [],
+    "references": [
+      { "path": "./tsconfig.app.json" },
+      { "path": "./tsconfig.node.json" }
+    ]
+  }
+}
