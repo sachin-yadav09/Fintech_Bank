@@ -27,6 +27,7 @@ Fintech_Bank/
 │   ├── src/            # Components, pages, hooks, state
 │   ├── public/         # Static assets
 │   └── index.html      # Main entry point
+├── images/             # Project screenshots
 └── README.md           # This file
 ```
 
@@ -93,3 +94,37 @@ Fintech_Bank/
 
 ## 📄 License
 This project is for educational purposes.
+
+---
+
+## 📸 Screenshots
+
+### Authentication
+| Signup | Login | Login Email |
+| :---: | :---: | :---: |
+| ![Signup](images/signup%20page.png) | ![Login](images/login%20page.png) | ![Login Email](images/login%20email%20page.png) |
+
+### Dashboard & Overview
+| Overview | Dashboard | Notifications |
+| :---: | :---: | :---: |
+| ![Overview](images/overveiwpage.png) | ![Dashboard](images/dashboardpage.png) | ![Notifications](images/notificationpage.png) |
+
+### Banking & Transactions
+| Bank Page | Transactions | Transfers |
+| :---: | :---: | :---: |
+| ![Bank](images/Bank%20page.png) | ![Transactions](images/transactions%20page.png) | ![Transfers](images/transferspage.png) |
+
+### Beneficiaries
+| Beneficiaries List | Add Beneficiary |
+| :---: | :---: |
+| ![Beneficiaries](images/Beneficiaries%20page.png) | ![Add Beneficiary](images/Add%20beneficiaries%20page.png) |
+
+### Goals
+| Goals Overview | Create New Goal |
+| :---: | :---: |
+| ![Goals](images/Goal%20page.png) | ![New Goal](images/New%20goal%20page.png) |
+
+### Loans & Profile
+| Loan Application | Loan Details | Profile |
+| :---: | :---: | :---: |
+| ![Loan Apply](images/loanapplypage.png) | ![Loan Page](images/Loan%20page.png) | ![Profile](images/profile%20page.png) |
